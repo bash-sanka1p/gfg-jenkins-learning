@@ -21,8 +21,12 @@ public class MyCalc {
     {
         return (a%b);
     }
+    public void greet(){
+        System.out.println("Hello Main Branch");
+    }
     public static void main(String[] args){
         MyCalc calc = new MyCalc();
+        calc.greet();
         System.out.println("Sum is :" + calc.sum(20, 10));
         System.out.println("diff is :" + calc.diff(20, 10));
         System.out.println("mul  is :" + calc.mul(20, 10));
