@@ -22,7 +22,7 @@ public class MyCalc {
         return (a%b);
     }
     public void greet(){
-        System.out.println("Hello Main Branch");
+        System.out.println("Hello Dev Branch");
     }
     public static void main(String[] args){
         MyCalc calc = new MyCalc();
